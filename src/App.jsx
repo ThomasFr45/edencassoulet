@@ -13,7 +13,24 @@ const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));
 
   return (
-    console.log("bite")
+    <>
+    <MyContext.Provider
+        value={{
+          language: language,
+        }}
+      >
+    <HashRouter >
+        <Navbar setLanguage={setLanguage}/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/wiki" element={<Wiki />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/shop/cart" element={<Cart />} />
+          <Route path="/wiki/:boss" element={<Details />} />
+        </Routes>
+      </HashRouter>
+      </MyContext.Provider>
+    </>
   );
 }
 
