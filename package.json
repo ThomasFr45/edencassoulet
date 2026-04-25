@@ -2,7 +2,7 @@
   "name": "edencassou",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://thomasfr45.github.io/edencassoulet/",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
