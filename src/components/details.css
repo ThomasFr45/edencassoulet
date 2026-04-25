@@ -1,0 +1,28 @@
+.details-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.details-title {
+  margin-bottom: 75px;
+  font-size: 23px;
+}
+
+.details-text {
+  margin-bottom: 100px;
+}
+
+.details-text p {
+  margin-top: 20px;
+}
+
+.details-image {
+  max-width: 500px;
+  min-width: 200px;
+  max-height: 400px;;
+  margin-bottom: 75px;
+}

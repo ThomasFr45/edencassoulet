@@ -1,0 +1,92 @@
+.shop-item {
+  width: fit-content;
+  margin: 50px;
+}
+
+.shop-result {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.shop-item {
+  padding: 20px;
+  border-radius:30px;
+  background-color: rgb(102, 0, 0);
+  height: 0%;
+}
+
+.shop-item-image {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.shop-item-infos {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.shop-item-infos ul {
+  list-style: none;
+}
+
+.shop-item-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.shop-item-button button {
+  padding: 3px;
+  border-radius: 8px;
+  background-color: rgb(221, 221, 221);
+  color: black;
+}
+
+.shop-confirm {
+  width: 250px;
+  height: 150px;
+  background-color: rgb(221, 221, 221);
+  color: black;
+  padding: 15px;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.shop-confirm-cross:after {
+  position: relative;
+  top: -133px;
+  right: -93%;
+  font-size: 30px;
+  background: transparent;
+  display: inline-block;
+  cursor: pointer;
+  content: "\00d7"; /* This will render the 'X' */
+}
+
+.shop-cart-icon {
+  font-size: 25px;
+  position: absolute;
+  left: 85%;
+  top: 150px;
+  cursor: pointer;
+}
+
+.shop-cart-icon a {
+  text-decoration: none;
+  color: white;
+}
+
+.shop-cart-value {
+  font-size: 11px;
+  color: black;
+  position: relative;
+  left: -6px;
+  top: -15px;
+  background-color: rgb(209, 0, 0);
+  border-radius: 100px;
+}

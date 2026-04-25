@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+:root {
+  --clr: rgb(31, 31, 31);
+}
+
+body {
+  background-color: var(--clr);
+  color: #e2dcdc;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
