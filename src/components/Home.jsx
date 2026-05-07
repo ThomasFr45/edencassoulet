@@ -1,11 +1,14 @@
 import './home.css';
+import { useContext } from 'react';
+import MyContext from '../context/MyContext';
 
 const Home = () => {
+  const { language } = useContext(MyContext);
   return (
     <div className="home-container">
       <img src="https://i.imgur.com/gjVmRDs.jpg" alt="" className="home-image" />
       <div className="home-text-container">
-        {localStorage.getItem('language') === 'en' ? (<><p className="home-text">
+        {language === 'en' ? (<><p className="home-text">
         Hi, welcome on our website, we made it to regroup some informations about Eden, this way it is easier for our new players to find them !
       </p>
       <p className="home-text">

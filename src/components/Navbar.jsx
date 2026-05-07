@@ -2,6 +2,8 @@ import { AiFillHome, AiOutlineTeam, AiFillShop, AiFillSetting } from "react-icon
 import { FaInfo } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "./navbar.css";
+import { useContext } from 'react';
+import MyContext from '../context/MyContext';
 
 const url = () => {
   const temp = window.location.href;
@@ -10,6 +12,7 @@ const url = () => {
 };
 
 const Navbar = ({ setLanguage }) => {
+  const { language } = useContext(MyContext);
   const handleLanguage = (e) => {
     if (e.target.value !== localStorage.getItem('language')) {
       localStorage.setItem('language', e.target.value);
@@ -58,7 +61,6 @@ const Navbar = ({ setLanguage }) => {
             </span>
             <span className="text">
               <select onChange={(e) => handleLanguage(e)}>
-                <option value='none'>Select</option>
                 <option value="fr">Français</option>
                 <option value="en">English</option>
               </select>
