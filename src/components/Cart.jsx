@@ -43,7 +43,7 @@ const Cart = () => {
           </div>
         ))}
       </div>
-      <button className='cart-button' onClick={() => {localStorage.removeItem('cart'); window.location.replace("https://thomasfr45.github.io/eden-wiki/#/shop")}}>{language === 'en' ? 'Clear' : 'Vider'}</button>
+      <button className='cart-button' onClick={() => {localStorage.removeItem('cart'); window.location.replace("https://thomasfr45.github.io/edencassoulet/#/shop")}}>{language === 'en' ? 'Clear' : 'Vider'}</button>
       <div className='cart-text'>{language === 'en' ? 'Your order has been arranged in a way so that you can send it by in game mail to the corresponding seller.' : "Votre commande à été organisée de manière à ce que ce soit facile de l'envoyer aux vendeurs par mail in game."}</div>
     </div>
   );
