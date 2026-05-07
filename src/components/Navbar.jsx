@@ -61,6 +61,7 @@ const Navbar = ({ setLanguage }) => {
             </span>
             <span className="text">
               <select onChange={(e) => handleLanguage(e)}>
+                <option value="none">o/</option>
                 <option value="fr">Français</option>
                 <option value="en">English</option>
               </select>

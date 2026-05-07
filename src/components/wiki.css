@@ -27,25 +27,29 @@
 
 .wiki-item-container {
   margin:50px;
+  box-shadow:5px 5px 5px grey;
+  border-radius:40px;
 }
 
 .wiki-item {
   background-color: rgb(221, 221, 221);
-  width: 500px;
+  width: 470px;
   height: fit-content;
   border-radius: 40px;
   border: 1px solid black;
   color:#000000;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 .wiki-item-container :hover {
-  color: #3c7cdb;
+  color: #2570e0;
+  background-color: rgb(205, 205, 205);
 }
 
 .wiki-item-container:has(.wiki-item:hover):hover {
-  transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
+  box-shadow:5px 5px 5px #3c7cdb;
 }
 
 .wiki-item-content {
@@ -63,7 +67,7 @@
 .wiki-item-infos {
   display: flex;
   align-items: center;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .wiki-item-infos ul {
