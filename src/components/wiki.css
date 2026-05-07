@@ -25,18 +25,23 @@
   height: 25px;
 }
 
+.wiki-item-container {
+  margin:50px;
+}
+
 .wiki-item {
-  margin: 20px;
-  padding: 40px;
   background-color: rgb(102, 0, 0);
   width: 500px;
   height: fit-content;
   border-radius: 30px;
   border: 1px solid black;
+  color:#c4c2c2;
+  font-size: 16px;
 }
 
 .wiki-item-content {
   display: flex;
+  margin:40px;
 }
 
 .wiki-item-content img {
@@ -51,19 +56,19 @@
 }
 
 .wiki-item-infos ul {
-  list-style: none;
+  list-style:none;
 }
 
-.wiki-item-button {
+/* .wiki-item-button {
   display:flex;
   justify-content: center;
   position: relative;
   top: 30px;
-}
+} */
 
 .wiki-item-button a {
   color:#c4c2c2;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .wiki-item-button a:hover {
