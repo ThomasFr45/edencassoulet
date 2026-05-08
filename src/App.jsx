@@ -1,7 +1,7 @@
 import './App.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Details from './components/Details';
+// import Details from './components/Details';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Wiki from './components/wiki/Wiki';
 import MyContext from "./context/MyContext";
@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/wiki" element={<Wiki />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/cart" element={<Cart />} />
-          <Route path="/wiki/:boss" element={<Details />} />
+          <Route path="/wiki/tk" element={<Shop />} />
         </Routes>
       </HashRouter>
       </MyContext.Provider>
