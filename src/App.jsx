@@ -8,6 +8,7 @@ import MyContext from "./context/MyContext";
 import { useState } from 'react';
 import Shop from './components/Shop';
 import Cart from './components/Cart';
+import Tk from './components/wiki/Tk';
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));
@@ -26,7 +27,7 @@ const App = () => {
           <Route path="/wiki" element={<Wiki />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/cart" element={<Cart />} />
-          <Route path="/wiki/tk" element={<Shop />} />
+          <Route path="/wiki/tk" element={<Tk />} />
         </Routes>
       </HashRouter>
       </MyContext.Provider>
