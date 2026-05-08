@@ -3,7 +3,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Details from './components/Details';
 import { HashRouter, Routes, Route } from "react-router-dom";
-import Wiki from './components/Wiki';
+import Wiki from './components/wiki/Wiki';
 import MyContext from "./context/MyContext";
 import { useState } from 'react';
 import Shop from './components/Shop';

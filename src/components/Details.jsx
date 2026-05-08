@@ -4,7 +4,7 @@ import './details.css';
 
 const Details = () => {
   const toSearch = useParams().boss;
-  const result = wikiContent.filter(one => one.name === toSearch)[0];
+  const result = wikiContent.filter(one => one.link === toSearch)[0];
   return (
     <div className="details-container">
       <h3 className="details-title">{result.name}</h3>

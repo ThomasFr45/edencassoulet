@@ -1,8 +1,8 @@
 import './wiki.css';
-import wikiContent from '../content/wikiContent';
+import wikiContent from '../../content/wikiContent';
 import { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
-import MyContext from '../context/MyContext';
+import MyContext from '../../context/MyContext';
 
 const Wiki = () => {
   const [search, setSearch] = useState('');
@@ -16,7 +16,7 @@ const Wiki = () => {
       <div className="wiki-result">
         {wikiContent.filter(good => good.name.toLowerCase().includes(search.toLowerCase()) || good.location.toLowerCase().includes(search.toLowerCase()) || good.short?.toLowerCase().includes(search.toLowerCase())).map(one => 
         <div className='wiki-item-container'>
-          <Link to={`${one.name}`}>
+          <Link to={`${one.link}`}>
           <div key={one.name} className="wiki-item">
           <div className="wiki-item-content">
             <img src={one.img ? one.img : "https://via.placeholder.com/150"} alt="boss-img" />
