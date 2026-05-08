@@ -1,4 +1,19 @@
 .tkBody {
+    place-items: center;
+}
+
+.tkTitle {
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+.tkInfos {
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+.tkInfosImage {
+    max-width: 200px;
+    margin-right: 60px;
 }
