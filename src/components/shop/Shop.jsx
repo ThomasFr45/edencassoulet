@@ -1,9 +1,9 @@
 import './shop.css';
-import shop from '../content/shop';
+import shop from '../../content/shop';
 import { useContext, useState } from 'react';
 import { BsCart2 } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
-import MyContext from '../context/MyContext';
+import MyContext from '../../context/MyContext';
 
 const handleConfirmation = (name, seller, price, quantity) => {
   if (JSON.parse(localStorage.getItem('cart') === null)) {

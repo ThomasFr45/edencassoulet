@@ -1,14 +1,15 @@
 import './App.css';
-import Home from './components/Home';
+import Home from './components/home/Home.jsx';
 import Navbar from './components/Navbar';
 // import Details from './components/Details';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Wiki from './components/wiki/Wiki';
 import MyContext from "./context/MyContext";
 import { useState } from 'react';
-import Shop from './components/Shop';
-import Cart from './components/Cart';
+import Shop from './components/shop/Shop';
+import Cart from './components/shop/Cart';
 import Tk from './components/wiki/tk/Tk';
+import Guild from './components/guild/Guild.jsx';
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));
@@ -24,6 +25,7 @@ const App = () => {
         <Navbar setLanguage={setLanguage}/>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/guild" element={<Guild />} />
           <Route path="/wiki" element={<Wiki />} />
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/cart" element={<Cart />} />

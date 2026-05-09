@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import './cart.css';
-import MyContext from '../context/MyContext';
+import MyContext from '../../context/MyContext';
 
 const sortOrder = (order) => {
   const sorted = [];

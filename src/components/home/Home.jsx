@@ -1,6 +1,6 @@
 import './home.css';
 import { useContext } from 'react';
-import MyContext from '../context/MyContext';
+import MyContext from '../../context/MyContext';
 
 const Home = () => {
   const { language } = useContext(MyContext);
