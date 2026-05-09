@@ -24,7 +24,7 @@ const tkContent = [
     {
         name:'Carol',
         bp:'Pierce / Nature',
-        infos:'Vitae soli penetrali conscii susurrasset Marcio aurem referente postridie nullo disceret secreto paterfamilias acciderat secreto secreto in susurrasset paterfamilias imperator etiam arcanorum disceret in in in praesente aurem secreto parietes aut praesente postridie penetrali in uxori conscii siquid vitae referente secreto ut aurem ideoque referente in acciderat aut secreto susurrasset interdum citerioris secreto ut ministro ideoque paterfamilias soli timebantur Amphiarao praesente interdum in disceret in penetrali inclitis secreto timebantur acciderat citerioris timebantur uxori Marcio vatibus praesente in etiam praesente soli Marcio Amphiarao siquid acciderat Amphiarao paterfamilias soli arcanorum aurem disceret ut imperator praesente disceret parietes vitae referente acciderat disceret praesente.',
+        infos:'tkBossInfos\ntkBossInfos',
         skill1:'https://i.imgur.com/Ftu3LgQ.png',
         skill2:'https://i.imgur.com/jEBLZ0c.png',
         skill3:'https://i.imgur.com/MzECGp5.png',
@@ -35,7 +35,7 @@ const tkContent = [
     {
         name:'Reeft & Natalie',
         bp:'Tout',
-        infos:'Vitae soli penetrali conscii susurrasset Marcio aurem referente postridie nullo disceret secreto paterfamilias acciderat secreto secreto in susurrasset paterfamilias imperator etiam arcanorum disceret in in in praesente aurem secreto parietes aut praesente postridie penetrali in uxori conscii siquid vitae referente secreto ut aurem ideoque referente in acciderat aut secreto susurrasset interdum citerioris secreto ut ministro ideoque paterfamilias soli timebantur Amphiarao praesente interdum in disceret in penetrali inclitis secreto timebantur acciderat citerioris timebantur uxori Marcio vatibus praesente in etiam praesente soli Marcio Amphiarao siquid acciderat Amphiarao paterfamilias soli arcanorum aurem disceret ut imperator praesente disceret parietes vitae referente acciderat disceret praesente.',
+        infos:'tkBossInfos\ntkBossInfos',
         skill1:'https://i.imgur.com/y76LEw0.png',
         skill2:'https://i.imgur.com/tEWnb8a.png',
         skill3:'https://i.imgur.com/dH8TAlj.png',
@@ -46,7 +46,7 @@ const tkContent = [
     {
         name:'Augustus',
         bp:'Holy / Dark',
-        infos:'Vitae soli penetrali conscii susurrasset Marcio aurem referente postridie nullo disceret secreto paterfamilias acciderat secreto secreto in susurrasset paterfamilias imperator etiam arcanorum disceret in in in praesente aurem secreto parietes aut praesente postridie penetrali in uxori conscii siquid vitae referente secreto ut aurem ideoque referente in acciderat aut secreto susurrasset interdum citerioris secreto ut ministro ideoque paterfamilias soli timebantur Amphiarao praesente interdum in disceret in penetrali inclitis secreto timebantur acciderat citerioris timebantur uxori Marcio vatibus praesente in etiam praesente soli Marcio Amphiarao siquid acciderat Amphiarao paterfamilias soli arcanorum aurem disceret ut imperator praesente disceret parietes vitae referente acciderat disceret praesente.',
+        infos:'tkBossInfos\ntkBossInfos',
         skill1:'https://i.imgur.com/mxwMghx.png',
         skill2:'https://i.imgur.com/nbZ0J9R.png',
         skill3:'https://i.imgur.com/MopcW1q.png',
