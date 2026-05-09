@@ -40,6 +40,7 @@
 }
 
 .tkBossSelect{
+    cursor: pointer;
     padding-left: 25px;
     padding-right: 25px;
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -47,6 +48,7 @@
 }
 
 .tkBossSelect1{
+    cursor: pointer;
     padding-left: 10px;
     padding-right: 25px;
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -54,6 +56,7 @@
 }
 
 .tkBossSelect5{
+    cursor: pointer;
     padding-left: 25px;
     padding-right: 10px;
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -61,6 +64,7 @@
 }
 
 .tkBossSelected {
+    cursor: pointer;
     font-size: 27px;
     font-weight: bold;
     padding-left: 25px;
@@ -69,6 +73,7 @@
 }
 
 .tkBossSelected1 {
+    cursor: pointer;
     font-size: 27px;
     font-weight: bold;
     padding-left: 10px;
@@ -77,6 +82,7 @@
 }
 
 .tkBossSelected5 {
+    cursor: pointer;
     font-size: 27px;
     font-weight: bold;
     padding-left: 25px;
