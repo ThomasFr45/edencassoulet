@@ -12,6 +12,7 @@ import Tk from './components/wiki/Tk';
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));
+  const [tkSelect, setTkSelect] = useState(localStorage.getItem('tkSelect'));
 
   return (
     <>

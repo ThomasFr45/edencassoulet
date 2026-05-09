@@ -29,3 +29,57 @@
     font-size: 18px;
     margin-top: 10px;
 }
+
+.tkBossList {
+    display: flex;
+    margin-top:60px;
+    border-top: 2px solid rgb(221, 221, 221);
+    padding-top: 60px;
+    width: 70%;
+    justify-content: center;
+}
+
+.tkBossSelect{
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    align-content: center;
+}
+
+.tkBossSelect1{
+    padding-left: 10px;
+    padding-right: 25px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    align-content: center;
+}
+
+.tkBossSelect5{
+    padding-left: 25px;
+    padding-right: 10px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    align-content: center;
+}
+
+.tkBossSelected {
+    font-size: 27px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.tkBossSelected1 {
+    font-size: 27px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 25px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.tkBossSelected5 {
+    font-size: 27px;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 10px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
