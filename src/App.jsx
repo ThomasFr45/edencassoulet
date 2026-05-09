@@ -8,7 +8,7 @@ import MyContext from "./context/MyContext";
 import { useState } from 'react';
 import Shop from './components/Shop';
 import Cart from './components/Cart';
-import Tk from './components/wiki/Tk';
+import Tk from './components/wiki/tk/Tk';
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));

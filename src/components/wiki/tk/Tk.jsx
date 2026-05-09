@@ -1,11 +1,34 @@
+import { PiCornersOutLight } from "react-icons/pi";
 import "./tk.css"
 import { useState } from 'react';
+import Augustus from './Augustus';
+import ReeftNat from './ReeftNat';
+import Carol from './Carol';
+import Yukari from './Yukari';
+import Faya from './Faya';
 
 const Tk = () => {
     const [tkSelected, setTkSelected] = useState('0');
     const handleClick = (boss) => {
         setTkSelected(boss);
         return
+    }
+    const handleDisplay = () => {
+        if (tkSelected === '1') {
+            return <Faya/>;
+        }
+        if (tkSelected === '2') {
+            return <Yukari/>;
+        }
+        if (tkSelected === '3') {
+            return <Carol/>;
+        }
+        if (tkSelected === '4') {
+            return <ReeftNat/>;
+        }
+        if (tkSelected === '5') {
+            return <Augustus/>;
+        }
     }
     return (
         <div className="tkBody">
@@ -30,6 +53,7 @@ const Tk = () => {
                 <p className={tkSelected === '4' ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick('4')}>Reeft & Natalie</p>
                 <p className={tkSelected === '5' ? 'tkBossSelected5' : 'tkBossSelect5'} onClick={() => handleClick('5')}>Augustus</p>
             </div>
+            {tkSelected !== '0' ? handleDisplay() : ''}
         </div>
     );
 }
