@@ -1,10 +1,8 @@
 import "./tk.css"
-import { useContext, useState } from 'react';
-import MyContext from "../../context/MyContext";
+import { useState } from 'react';
 
 const Tk = () => {
-    const { tkSelect } = useContext(MyContext);
-    const [tkSelected, setTkSelected] = useState(tkSelect);
+    const [tkSelected, setTkSelected] = useState('0');
     const handleClick = (boss) => {
         setTkSelected(boss);
         return
