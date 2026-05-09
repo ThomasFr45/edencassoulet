@@ -31,13 +31,13 @@ const Tk = () => {
                 <p className="tkTipsBigger">Un joueur ne peut prendre ce rôle qu'une fois par jour, tout le monde devra donc le faire.</p>
             </div>
             <div className="tkBossList">
-                <p className={tkSelected === 0 ? 'tkBossSelected1' : 'tkBossSelect1'} onClick={() => handleClick(0)}>Faya</p>
-                <p className={tkSelected === 1 ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick(1)}>Yukari</p>
-                <p className={tkSelected === 2 ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick(2)}>Carol</p>
-                <p className={tkSelected === 3 ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick(3)}>Reeft & Natalie</p>
-                <p className={tkSelected === 4 ? 'tkBossSelected5' : 'tkBossSelect5'} onClick={() => handleClick(4)}>Augustus</p>
+                <p className={tkSelected === '0' ? 'tkBossSelected1' : 'tkBossSelect1'} onClick={() => handleClick('0')}>Faya</p>
+                <p className={tkSelected === '1' ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick('1')}>Yukari</p>
+                <p className={tkSelected === '2' ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick('2')}>Carol</p>
+                <p className={tkSelected === '3' ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick('3')}>Reeft & Natalie</p>
+                <p className={tkSelected === '4' ? 'tkBossSelected5' : 'tkBossSelect5'} onClick={() => handleClick('4')}>Augustus</p>
             </div>
-            {tkSelected !== '0' ? handleDisplay() : ''}
+            {tkSelected ? handleDisplay() : ''}
         </div>
     );
 }
