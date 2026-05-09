@@ -2,7 +2,7 @@ const tkContent = [
     {
         name:'Faya',
         bp:'Strike / Dark',
-        infos:'Vitae soli penetrali conscii susurrasset Marcio aurem referente postridie nullo disceret secreto paterfamilias acciderat secreto secreto in susurrasset paterfamilias imperator etiam arcanorum disceret in in in praesente aurem secreto parietes aut praesente postridie penetrali in uxori conscii siquid vitae referente secreto ut aurem ideoque referente in acciderat aut secreto susurrasset interdum citerioris secreto ut ministro ideoque paterfamilias soli timebantur Amphiarao praesente interdum in disceret in penetrali inclitis secreto timebantur acciderat citerioris timebantur uxori Marcio vatibus praesente in etiam praesente soli Marcio Amphiarao siquid acciderat Amphiarao paterfamilias soli arcanorum aurem disceret ut imperator praesente disceret parietes vitae referente acciderat disceret praesente.',
+        infos:"Le combat contre Faya est l'un des plus simple d'après moi. En tant que PNJ, il faut principalement maintenir sur les membres du groupes différents buffs.\n Pour ce faire, rien de plus simple, la prioritée est sur les sorts 2,3 et 5, qui appliquent les buffs aux membres se trouvant dans la zone du sort.\n Pour être encore plus utile, le PNJ peut aussi utiliser le 5ème sort pour ramener le boss sur lui et l'empêcher de se téléporter pendant 5 secondes, permettant au groupe d'infliger un maximum de dégâts pendant cette durée.",
         skill1:'https://i.imgur.com/cSxKCvH.png',
         skill2:'https://i.imgur.com/o72JK5Y.png',
         skill3:'https://i.imgur.com/2fpyO3l.png',
@@ -13,7 +13,7 @@ const tkContent = [
     {
         name:'Yukari',
         bp:'Slash / Thunder',
-        infos:'Vitae soli penetrali conscii susurrasset Marcio aurem referente postridie nullo disceret secreto paterfamilias acciderat secreto secreto in susurrasset paterfamilias imperator etiam arcanorum disceret in in in praesente aurem secreto parietes aut praesente postridie penetrali in uxori conscii siquid vitae referente secreto ut aurem ideoque referente in acciderat aut secreto susurrasset interdum citerioris secreto ut ministro ideoque paterfamilias soli timebantur Amphiarao praesente interdum in disceret in penetrali inclitis secreto timebantur acciderat citerioris timebantur uxori Marcio vatibus praesente in etiam praesente soli Marcio Amphiarao siquid acciderat Amphiarao paterfamilias soli arcanorum aurem disceret ut imperator praesente disceret parietes vitae referente acciderat disceret praesente.',
+        infos:"Le combat contre Yukari peut être un peu plus compliqué pour certains (augmentez vos résistances les enfants). Cependant si vous êtes attentifs et évitez la confrontation directe avec ses invocations, vous devriez vous en sortir sans trop de problème.\n Concernant le PNJ, il est recommandé de spam le 2ème sort à partir de moment ou vous avez les sorts, ce sort permet de stacker un buff de précision sur les membres du groupe.\n Le 3ème sort est un sort qui pourrait vous faciliter la vie, surtout si vous manquez de résistances, il vous permettra de retirer d'un allié ciblé, ainsi que de réduire les dégâts physiques qu'il prendra.\n Le 4ème sort permettra à votre équipe un peu de répis si la situation devenait tendue.\n Le 6ème sort est le plus important dans le lot, il permettra de retirer au boss son immunité aux dégâts. Facile de la repérer, elle ne prendra plus de dégâts, se soignera, et aura l'apparence d'un arbre.",
         skill1:'https://i.imgur.com/9lMn26G.png',
         skill2:'https://i.imgur.com/7VczT00.png',
         skill3:'https://i.imgur.com/CT7YjPs.png',
@@ -24,7 +24,7 @@ const tkContent = [
     {
         name:'Carol',
         bp:'Pierce / Nature',
-        infos:'tkBossInfos\ntkBossInfos',
+        infos:"Ce combat est simple comme bonjour, tout comme le rôle du PNJ ! Il s'agira ici d'empêcher le boss de se soigner.\n Carol invoquera des infirmières à plusieurs reprises. Il y a 3 types d'infirmières, celles qui envoient de la lumière vers elle pour la soigner, celles qui viennent à elle pour la soigner, et celles qui vous attaquent.\n Le 2ème sort empêchera la lumière de soigner le boss, le 3ème empêchera les infirmières au corp à corp de soigner le boss, et le 6ème vous permettra de forcer les infirmières à quitter le terrain si besoin.",
         skill1:'https://i.imgur.com/Ftu3LgQ.png',
         skill2:'https://i.imgur.com/jEBLZ0c.png',
         skill3:'https://i.imgur.com/MzECGp5.png',
