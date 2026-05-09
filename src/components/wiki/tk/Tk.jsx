@@ -34,8 +34,8 @@ const Tk = () => {
                 <p className={tkSelected === 0 ? 'tkBossSelected1' : 'tkBossSelect1'} onClick={() => handleClick(0)}>Faya</p>
                 <p className={tkSelected === 1 ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick(1)}>Yukari</p>
                 <p className={tkSelected === 2 ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick(2)}>Carol</p>
-                <p className={tkSelected === 3 ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick('3')}>Reeft & Natalie</p>
-                <p className={tkSelected === 4 ? 'tkBossSelected5' : 'tkBossSelect5'} onClick={() => handleClick('4')}>Augustus</p>
+                <p className={tkSelected === 3 ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick(3)}>Reeft & Natalie</p>
+                <p className={tkSelected === 4 ? 'tkBossSelected5' : 'tkBossSelect5'} onClick={() => handleClick(4)}>Augustus</p>
             </div>
             {tkSelected !== '0' ? handleDisplay() : ''}
         </div>
