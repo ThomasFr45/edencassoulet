@@ -35,7 +35,7 @@ const tkContent = [
     {
         name:'Reeft & Natalie',
         bp:'Tout',
-        infos:'tkBossInfos\ntkBossInfos',
+        infos:"Il existe plusieurs approches possibles pour ce combat. Il est possible de run les deux boss en même temps, en s'assurant de ne jamais se faire toucher par l'un d'eux. Il est aussi possible de commencer par en attirer un, le tomber à plus ou moins 10% de ses HP, avant d'engager le combat avec le deuxième boss, le tuer et finir le premier.\n Quelque soit votre approche, notez que les bosses ne bougeront pas du milieu si vous ne les engagez pas avec un stun. Pour n'en attirer qu'un, il est recommendé d'utiliser le sleep de l'illu et de le laisser venir vers vous.\n Si vous attirez un boss pour le combattre de face, il est conseillé de commencer par Reeft, étant donné que si Nathalie vous touche, elle va d'abord stun le groupe régulièrement, mais aussi elle va téléporter Reeft sur elle, rendant le combat plus compliqué. Il est recommendé qu'un des joueurs run Reeft une fois qu'il est LOW HP, pour que les autres puissent combattre Natalie en utilisant, si possible, que des sorts mono cibles pour éviter de reprendre l'aggro de Reeft lorsqu'il sera téléporté. \n Ici le PNJ aura un très gros impact sur la vitesse à laquelle les boss vont mourir. Premièrement il aura son 1er et 2ème spells qui auront chacun un impact sur un boss. Le premier sera pour reeft, et le deuxieme pour Natalie.\n Le 3ème sort réduira les dégâts qu'inflige le boss, mais le plus important sera le 4ème sort, qui augmentera les dégâts reçus par le boss de 50% !",
         skill1:'https://i.imgur.com/y76LEw0.png',
         skill2:'https://i.imgur.com/tEWnb8a.png',
         skill3:'https://i.imgur.com/dH8TAlj.png',
@@ -46,7 +46,7 @@ const tkContent = [
     {
         name:'Augustus',
         bp:'Holy / Dark',
-        infos:'tkBossInfos\ntkBossInfos',
+        infos:'Ce boss tape fort ! Il vous faudra MINIMUM 30k hp pour survivre (non négociable). Il faut absolument run ce boss, il ne doit pas vous toucher, sinon il y a de grandes chances que votre groupe tombe par terre.\n Sur ce boss on ne demandera pas de miracles de la part du PNJ, le réussir à la perfection demande pas mal de pratique. Il faut utiliser les différents sort au timing exact (0.5s) pour donner la bonne immunité à votre groupe.\n Cependant le 6ème sort peut vous sauver en cas de pépin, il soignera votre groupe !',
         skill1:'https://i.imgur.com/mxwMghx.png',
         skill2:'https://i.imgur.com/nbZ0J9R.png',
         skill3:'https://i.imgur.com/MopcW1q.png',
