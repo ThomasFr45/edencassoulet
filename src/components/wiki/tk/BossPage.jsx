@@ -1,7 +1,13 @@
 import tkContent from "../../../content/tkContent";
 import './bossPage.css';
+import { animateScroll } from 'react-scroll';
 
 const BossPage = ({ selected }) => {
+    const options = {
+  duration: 500,
+  smooth: true,
+};
+animateScroll.scrollTo(750, options);
     return (
         <div className="tkBossContainer">
             <h1 className='tkBossName'>~ {tkContent[selected].name} ~</h1>
