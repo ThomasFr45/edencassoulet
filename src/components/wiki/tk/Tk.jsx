@@ -2,10 +2,19 @@ import { PiCornersOutLight } from "react-icons/pi";
 import "./tk.css"
 import { useState } from 'react';
 import BossPage from "./BossPage.jsx";
+import { animateScroll } from 'react-scroll';
 
 const Tk = () => {
     const [tkSelected, setTkSelected] = useState();
+    const options = {
+        duration: 500,
+        smooth: true,
+    };
     const handleClick = (boss) => {
+        if (!tkSelected) {
+            animateScroll.scrollTo(475, options);
+            console.log('prout')
+        }
         setTkSelected(boss);
         return
     }
