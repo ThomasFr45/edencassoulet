@@ -17,3 +17,15 @@
     max-width: 200px;
     margin-right: 60px;
 }
+
+.tkTips {
+    margin-top: 50px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.tkTipsBigger {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
