@@ -14,6 +14,7 @@ const BossPage = ({ selected }) => {
                 <img src={tkContent[selected].skill5} alt="" />
                 <img src={tkContent[selected].skill6} alt="" />
             </div>
+            <div>{tkContent[selected].infos}</div>
         </div>
     )
 }

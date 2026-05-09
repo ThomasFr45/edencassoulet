@@ -20,7 +20,7 @@ const App = () => {
           language: language,
         }}
       >
-    <HashRouter >
+          <HashRouter >
         <Navbar setLanguage={setLanguage}/>
         <Routes>
           <Route path="/" element={<Home />} />
