@@ -1,33 +1,17 @@
 import { PiCornersOutLight } from "react-icons/pi";
 import "./tk.css"
 import { useState } from 'react';
-import Augustus from './Augustus';
-import ReeftNat from './ReeftNat';
-import Carol from './Carol';
-import Yukari from './Yukari';
-import Faya from './Faya';
+import BossPage from "./BossPage.jsx";
 
 const Tk = () => {
-    const [tkSelected, setTkSelected] = useState('0');
+    const [tkSelected, setTkSelected] = useState();
     const handleClick = (boss) => {
         setTkSelected(boss);
         return
     }
     const handleDisplay = () => {
-        if (tkSelected === '1') {
-            return <Faya/>;
-        }
-        if (tkSelected === '2') {
-            return <Yukari/>;
-        }
-        if (tkSelected === '3') {
-            return <Carol/>;
-        }
-        if (tkSelected === '4') {
-            return <ReeftNat/>;
-        }
-        if (tkSelected === '5') {
-            return <Augustus/>;
+        if (tkSelected) {
+            return <BossPage selected={tkSelected}/>
         }
     }
     return (
@@ -47,11 +31,11 @@ const Tk = () => {
                 <p className="tkTipsBigger">Un joueur ne peut prendre ce rôle qu'une fois par jour, tout le monde devra donc le faire.</p>
             </div>
             <div className="tkBossList">
-                <p className={tkSelected === '1' ? 'tkBossSelected1' : 'tkBossSelect1'} onClick={() => handleClick('1')}>Faya</p>
-                <p className={tkSelected === '2' ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick('2')}>Yukari</p>
-                <p className={tkSelected === '3' ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick('3')}>Carol</p>
-                <p className={tkSelected === '4' ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick('4')}>Reeft & Natalie</p>
-                <p className={tkSelected === '5' ? 'tkBossSelected5' : 'tkBossSelect5'} onClick={() => handleClick('5')}>Augustus</p>
+                <p className={tkSelected === 0 ? 'tkBossSelected1' : 'tkBossSelect1'} onClick={() => handleClick(0)}>Faya</p>
+                <p className={tkSelected === 1 ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick(1)}>Yukari</p>
+                <p className={tkSelected === 2 ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick(2)}>Carol</p>
+                <p className={tkSelected === 3 ? 'tkBossSelected' : 'tkBossSelect'} onClick={() => handleClick('3')}>Reeft & Natalie</p>
+                <p className={tkSelected === 4 ? 'tkBossSelected5' : 'tkBossSelect5'} onClick={() => handleClick('4')}>Augustus</p>
             </div>
             {tkSelected !== '0' ? handleDisplay() : ''}
         </div>
