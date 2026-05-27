@@ -10,6 +10,8 @@ import Shop from './components/shop/Shop';
 import Cart from './components/shop/Cart';
 import Tk from './components/wiki/tk/Tk';
 import Guild from './components/guild/Guild.jsx';
+import Ddoor from './components/wiki/dDoor/Ddoor.jsx';
+import AwaClass from './components/wiki/awaClass/AwaClass.jsx';
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));
@@ -30,6 +32,8 @@ const App = () => {
           <Route path="/shop" element={<Shop />} />
           <Route path="/shop/cart" element={<Cart />} />
           <Route path="/wiki/tk" element={<Tk />} />
+          <Route path="/wiki/awaclass" element={<AwaClass />} />
+          <Route path="/wiki/doubleporte" element={<Ddoor />} />
         </Routes>
       </HashRouter>
       </MyContext.Provider>

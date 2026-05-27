@@ -13,7 +13,6 @@ const Tk = () => {
     const handleClick = (boss) => {
         if (!tkSelected) {
             animateScroll.scrollTo(475, options);
-            console.log('prout')
         }
         setTkSelected(boss);
         return
