@@ -1,0 +1,20 @@
+.awaClassContainer {
+    max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.awaClassTitle {
+    text-align: center;
+}
+
+.awaClassGeneral {
+    margin-top:60px;
+    max-width: 75%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.awaClassGeneral:last-child p {
+    margin-top:10px;
+}
