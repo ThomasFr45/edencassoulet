@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import MyContext from '../../../context/MyContext';
 import awaClassGeneral from '../../../content/awaClassGeneral';
 import awaClass from '../../../content/awaClass';
-import rak from '../../../content/images/rakshasa.webp'
 
 const AwaClass = () => {
     const [ awaClassGenInfos ] = awaClassGeneral;
@@ -16,7 +15,7 @@ const AwaClass = () => {
                 {language === 'fr' ? awaClassGenInfos.fr.split('\n').map(line => <p>{line}</p>) : 'Not translated yet'}
             </div>
             <div className='awaClassList'>
-                {awaClass.map(one => <Link to={one.name}>
+                {awaClass.map(one => <Link to={one.id}>
                     <div className='awaClassCard'>
                         <h4 className='awaClassCardTitle'>~ {one.name} ~</h4>
                         <img src={one.image} alt="" className='awaClassImage'/>

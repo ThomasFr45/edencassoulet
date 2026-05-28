@@ -6,6 +6,18 @@
 
 .awaClassTitle {
     text-align: center;
+    margin-top:5px;
+}
+
+.awaClassDetailSubtitle {
+    display: flex;
+    justify-content: center;
+}
+
+.awaClassDetailSubtitle img {
+    max-width: 2%;
+    margin-right: 10px;
+    margin-left:10px;
 }
 
 .awaClassGeneral {
@@ -34,7 +46,7 @@
     text-align: center;
     padding-top: 12px;
     padding-bottom: 12px;
-    margin:10px;
+    margin:12px;
     background-color: rgb(100, 23, 36);
     border-radius: 25px;
     box-shadow: 10px 10px 10px black;

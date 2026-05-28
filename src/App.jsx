@@ -12,6 +12,7 @@ import Tk from './components/wiki/tk/Tk';
 import Guild from './components/guild/Guild.jsx';
 import Ddoor from './components/wiki/dDoor/Ddoor.jsx';
 import AwaClass from './components/wiki/awaClass/AwaClass.jsx';
+import AwaClassDetails from './components/wiki/awaClass/AwaClassDetails.jsx';
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="/shop/cart" element={<Cart />} />
           <Route path="/wiki/tk" element={<Tk />} />
           <Route path="/wiki/awaclass" element={<AwaClass />} />
+          <Route path="/wiki/awaclass/:class" element={<AwaClassDetails />} />
           <Route path="/wiki/doubleporte" element={<Ddoor />} />
         </Routes>
       </HashRouter>
