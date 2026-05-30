@@ -8,9 +8,9 @@ const awaClass = [
         name:"Rakshasa",
         base:"Martial Artist",
         image:rakshasa,
-        quest1:'',
+        quest1:'Talk to "Niez" (Viper\'s Forest)\nCollect "Inner Fire" x30 from "Heatbeast" (Meeryasha)\nCollect "Incandescent Stone" x10 from "Magmabeast Leader" (Meeryasha Elites)\nCollect "Hot-Hand Crystal" (Iceflame Highlands Fame Chest)',
         quest2:'',
-        quest3:'',
+        quest3:'Talk to "Slynn"\nDefeat "Slynn", you will fight him by talking to the merchant selling the quest in the Pantheon of Heroes\nCollect "Ascendancy Token" x10 which you can either trade for warstones or farm from quests sold by "Kaiser" in aven (455,355)',
         id:'0',
     },
     {
@@ -19,7 +19,7 @@ const awaClass = [
         image:stormcaster,
         quest1:'',
         quest2:'',
-        quest3:'',
+        quest3:'Talk to "Lyssara"\nDefeat "Lyssara", you will fight her by talking to the merchant selling the quest in the Pantheon of Heroes\nCollect "Ascendancy Token" x10 which you can either trade for warstones or farm from quests sold by "Kaiser" in aven (455,355)',
         id:'1',
     },
     {
@@ -35,9 +35,9 @@ const awaClass = [
         name:"Reaver",
         base:"Inquisitor",
         image:reaver,
-        quest1:'',
-        quest2:'',
-        quest3:'',
+        quest1:'Collect "Lost Soul" x30 from "Roaming Soul" in lv80 Trial Guillotine\nCollect "Moon Scar Heroic Soul" x30 (Orange summons lv80)\nCollect "Grimghost Necklace" from fame chest in Eloise Plains\nCollect "Bloody Fang" from "Blighted Luisaka"',
+        quest2:'Collect "Soul Harvester" from trial points\nCollect "Darphynius\' Entangled Soul" from "Darphynius" in lv85 Occultus trial\nCollect "Tormented Soul" using the "Soul Collector" from "Kaelthorn"\n Defeat "Graylin Shadow Guard" x66',
+        quest3:'Talk to "Kaelthorn"\nDefeat "Kaelthorn", you will fight him by talking to the merchant selling the quest in the Pantheon of Heroes\nCollect "Ascendancy Token" x10 which you can either trade for warstones or farm from quests sold by "Kaiser" in aven (455,355)',
         id:'3',
     },
 ];
