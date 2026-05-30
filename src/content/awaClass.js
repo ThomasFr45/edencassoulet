@@ -9,7 +9,7 @@ const awaClass = [
         base:"Martial Artist",
         image:rakshasa,
         quest1:'Talk to "Niez" (Viper\'s Forest)\nCollect "Inner Fire" x30 from "Heatbeast" (Meeryasha)\nCollect "Incandescent Stone" x10 from "Magmabeast Leader" (Meeryasha Elites)\nCollect "Hot-Hand Crystal" (Iceflame Highlands Fame Chest)',
-        quest2:'',
+        quest2:'Defeat "Bane Knight" x30 in lv85 Trial "Tranquil Hill"\nCollect "Fire Pulse Cestus" from Jarroda, "Deagon Tongue Cestus" is sold by "Slynn", "Firestone" is sold by Wee Rowan\nCollect "Dragonfire" from "Frisaya" (Ethereal Dome)',
         quest3:'Talk to "Slynn"\nDefeat "Slynn", you will fight him by talking to the merchant selling the quest in the Pantheon of Heroes\nCollect "Ascendancy Token" x10 which you can either trade for warstones or farm from quests sold by "Kaiser" in aven (455,355)',
         id:'0',
     },
