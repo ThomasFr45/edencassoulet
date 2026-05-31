@@ -8,18 +8,30 @@
 
 .weekDay {
     width: 70px;
-    background-color: rgb(10, 95, 95);
+    background-color: #641724;
     text-align: center;
     font-size: 12px;;
     max-height: fit-content;
+    padding:2px;
 }
 
 .weekDaySelected {
     width: 70px;
-    background-color: rgb(10, 95, 95);
+    background-color: #771727;
     text-align: center;
+    font-size: 13px;
+    height:80px;
+    align-content: center;
+}
+
+.dayInfos {
+    text-align: center;
+    margin-top: 30px;
     font-size: 12px;
-    height:100px;
+}
+
+.dayFirstInfo {
+    margin-bottom: 5px;
 }
 
 
@@ -29,13 +41,19 @@
     .weekDay {
         width: 80px;
         font-size: 14px;
+        padding:5px;
     }
 
     .weekDaySelected {
         width: 80px;
-        font-size: 14px;
+        font-size: 15px;
         font-family: bold;
-        align-content: center;
+        height: 100px;
+    }
+
+    .dayInfos {
+        margin-top: 50px;
+        font-size: 14px;
     }
 
 }
@@ -55,8 +73,12 @@
     .weekDaySelected {
         width: 100px;
         font-size: 20px;
-        font-family: bold;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         align-content: center;
+    }
+
+    .dayInfos {
+        font-size: 16px;;
     }
 
 }

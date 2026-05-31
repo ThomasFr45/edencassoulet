@@ -32,7 +32,7 @@
 }
 
 .wiki-item {
-  background-color: rgb(212, 202, 202);
+  background-color: #DDDDDD;
   width: 250px;
   height: fit-content;
   border-radius: 40px;
@@ -45,8 +45,8 @@
 }
 
 .wiki-item-container :hover {
-  color: #2768ca;
-  background-color: rgb(221, 205, 205);
+  color: #2460bb;
+  background-color: rgb(228, 228, 228);
 }
 
 .wiki-item-container:has(.wiki-item:hover):hover {
@@ -78,7 +78,7 @@
 
 @media (min-width: 600px) {
   .wiki-item {
-  background-color: rgb(212, 202, 202);
+  background-color: #DDDDDD;
   width: 470px;
   height: fit-content;
   border-radius: 40px;
