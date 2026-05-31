@@ -21,7 +21,7 @@
 }
 
 .wiki-searchbar {
-  width: 400px;
+  width: 250px;
   height: 25px;
 }
 
@@ -32,7 +32,53 @@
 }
 
 .wiki-item {
-  background-color: rgb(221, 221, 221);
+  background-color: rgb(212, 202, 202);
+  width: 250px;
+  height: fit-content;
+  border-radius: 40px;
+  border: 1px solid black;
+  color:#000000;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wiki-item-container :hover {
+  color: #2768ca;
+  background-color: rgb(221, 205, 205);
+}
+
+.wiki-item-container:has(.wiki-item:hover):hover {
+  transform: scale(1.01, 1.01);
+  box-shadow:5px 5px 5px #3c7cdb;
+}
+
+.wiki-item-content {
+  margin:40px;
+}
+
+.wiki-item-content img {
+  width: 150px;
+  height: 150px;
+  border-radius: 28px;
+  border: 2px solid black;
+  margin-left:8px;
+  margin-bottom:5px;
+}
+
+.wiki-item-infos {
+  display: flex;
+  align-items: center;
+}
+
+.wiki-item-infos ul {
+  list-style:none;
+}
+
+@media (min-width: 600px) {
+  .wiki-item {
+  background-color: rgb(212, 202, 202);
   width: 470px;
   height: fit-content;
   border-radius: 40px;
@@ -42,19 +88,15 @@
   font-weight: bold;
 }
 
-.wiki-item-container :hover {
-  color: #2570e0;
-  background-color: rgb(205, 205, 205);
-}
-
-.wiki-item-container:has(.wiki-item:hover):hover {
-  transform: scale(1.1, 1.1);
-  box-shadow:5px 5px 5px #3c7cdb;
-}
-
 .wiki-item-content {
   display: flex;
   margin:40px;
+}
+
+.wiki-item-infos {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
 }
 
 .wiki-item-content img {
@@ -64,12 +106,8 @@
   border: 2px solid black;
 }
 
-.wiki-item-infos {
-  display: flex;
-  align-items: center;
-  margin-left: 50px;
+.wiki-searchbar {
+  width: 400px;
+  height: 25px;
 }
-
-.wiki-item-infos ul {
-  list-style:none;
 }

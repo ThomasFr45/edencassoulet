@@ -1,7 +1,7 @@
-import rakshasa from "./images/rakshasa.webp";
-import druid from "./images/druid.webp";
-import reaver from "./images/reaver.webp";
-import stormcaster from "./images/stormcaster.webp";
+import rakshasa from "./images/awaClass/rakshasa.webp";
+import druid from "./images/awaClass/druid.webp";
+import reaver from "./images/awaClass/reaver.webp";
+import stormcaster from "./images/awaClass/stormcaster.webp";
 
 const awaClass = [
     {
