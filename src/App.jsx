@@ -1,7 +1,6 @@
 import './App.css';
 import Home from './components/home/Home.jsx';
 import Navbar from './components/Navbar';
-// import Details from './components/Details';
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Wiki from './components/wiki/Wiki';
 import MyContext from "./context/MyContext";
@@ -13,6 +12,13 @@ import Guild from './components/guild/Guild.jsx';
 import Ddoor from './components/wiki/dDoor/Ddoor.jsx';
 import AwaClass from './components/wiki/awaClass/AwaClass.jsx';
 import AwaClassDetails from './components/wiki/awaClass/AwaClassDetails.jsx';
+import CelestialCorridor from './components/wiki/celestialCorridor/CelestialCorridor.jsx';
+import Aquarius from './components/wiki/celestialCorridor/Aquarius.jsx';
+import Aries from './components/wiki/celestialCorridor/Aries.jsx';
+import Gemini from './components/wiki/celestialCorridor/Gemini.jsx';
+import Leo from './components/wiki/celestialCorridor/Leo.jsx';
+import Libra from './components/wiki/celestialCorridor/Libra.jsx';
+import Sagittarius from './components/wiki/celestialCorridor/Sagittarius.jsx';
 
 const App = () => {
   const [language, setLanguage] = useState(localStorage.getItem('language'));
@@ -36,6 +42,13 @@ const App = () => {
           <Route path="/wiki/awaclass" element={<AwaClass />} />
           <Route path="/wiki/awaclass/:class" element={<AwaClassDetails />} />
           <Route path="/wiki/doubleporte" element={<Ddoor />} />
+          <Route path="/wiki/celestialCorridor" element={<CelestialCorridor />} />
+          <Route path="/wiki/celestialCorridor/aquarius" element={<Aquarius />} />
+          <Route path="/wiki/celestialCorridor/aries" element={<Aries />} />
+          <Route path="/wiki/celestialCorridor/gemini" element={<Gemini />} />
+          <Route path="/wiki/celestialCorridor/leo" element={<Leo />} />
+          <Route path="/wiki/celestialCorridor/libra" element={<Libra />} />
+          <Route path="/wiki/celestialCorridor/sagittarius" element={<Sagittarius />} />
         </Routes>
       </HashRouter>
       </MyContext.Provider>

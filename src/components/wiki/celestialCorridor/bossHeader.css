@@ -1,0 +1,70 @@
+.ccBossProfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -200px;
+  font-weight: bold;
+}
+
+.ccBossProfilPic {
+  width: 700px;
+  max-height: 450px;
+}
+
+.ccBossProfilInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.ccBossProfilInfo p:not(:first-child) {
+  margin-top: 40px;
+}
+
+.ccBossComp {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.ccBossComp h3 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1150px) {
+  .ccBossProfilPic {
+    width: 40%;
+  }
+}
+
+@media (max-width: 850px) {
+  .ccBossProfilPic {
+    width: 400px;
+  }
+
+  .ccBossComp {
+    margin-top: 45px;
+  }
+
+  .ccBossProfil {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .ccBossProfilInfo {
+    margin-left: 0;
+    margin-top: 25px;
+  }
+
+  .ccBossProfilInfo p:not(:first-child) {
+    margin-top: 20px;
+  }
+  
+}
+
+@media (max-width: 400px) {
+  .ccBossProfilPic {
+    max-width: 100%;
+  }
+}

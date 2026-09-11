@@ -1,0 +1,90 @@
+.ccContent {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: rgb(66, 66, 66);
+  width: fit-content;
+  border: 1px solid #dee2e6;
+  display: block;
+  overflow-x: auto;
+  margin-bottom: 100px;
+}
+
+td {
+  padding: 15px;
+}
+
+tr:hover {
+  background-color: rgb(114, 114, 114);
+}
+
+td:first-child {
+  font-weight: bold;
+  padding-right:50px;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #b3b6b9;
+}
+
+.libra {
+  background-image: url('../../../content/images/celestialCorridor/Libra.png');
+  background-size: cover;
+}
+
+.sagi {
+  background-image: url('../../../content/images/celestialCorridor/Sagi.png');
+  background-size: cover;
+}
+
+.leo {
+  background-image: url('../../../content/images/celestialCorridor/Leo.png');
+  background-size: cover;
+}
+
+.gemini {
+  background-image: url('../../../content/images/celestialCorridor/Gemini.png');
+  background-size: cover;
+}
+
+.aqua {
+  background-image: url('../../../content/images/celestialCorridor/Aqua.png');
+  background-size: cover;
+}
+
+.aries {
+  background-image: url('../../../content/images/celestialCorridor/Aries.png');
+  background-size: cover;
+}
+
+.ccScheduleTitle {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ccBossImgsTitle {
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  td:first-child {
+    padding-right:15px;
+  }
+}
+
+@media (max-width:800px) {
+  .ccContent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ccSchedule {
+    margin-bottom:-50px;
+  }
+}
