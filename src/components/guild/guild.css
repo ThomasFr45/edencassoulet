@@ -13,7 +13,8 @@
 }
 
 .guildImage {
-    max-width: 100px;;
+    max-width: 100px;
+    border-radius: 40%;
 }
 
 .guildText {

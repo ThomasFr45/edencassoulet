@@ -78,7 +78,7 @@
 
 @media (min-width: 600px) {
   .wiki-item {
-  background-color: #DDDDDD;
+  background-color: #dddddde8;
   width: 470px;
   height: fit-content;
   border-radius: 40px;
@@ -109,5 +109,6 @@
 .wiki-searchbar {
   width: 400px;
   height: 25px;
+  background: #dddddde8;
 }
 }

@@ -9,7 +9,7 @@ const Wiki = () => {
   const { language } = useContext(MyContext);
   return (
     <div className="wiki-container">
-      <p className="wiki-infos">{language === 'en' ? "Here is the wiki page, you'll find some informations about endgame boss and dungeons, if you are looking for a specific boss or dungeon, type his name in the search bar, and you should get a result. If you can't find what you are looking for, you can pm ElMaou or ask one of Cassoulet's members" : 'Voici notre page de wiki, vous trouverez ici des informations sur les donjons et boss endgame. Si vous en cherchez un en particulier, tapez son nom dans la barre de recherche. Si vous ne trouvez pas ce que vous cherchez, vous pouvez mp ElMaou, on demander à un membre de Cassoulet.'}</p>
+      <p className="wiki-infos">{language === 'en' ? "Here is the wiki page, you'll find some informations about endgame boss and dungeons, if you are looking for a specific boss or dungeon, type his name in the search bar, and you should get a result. If you can't find what you are looking for, you can pm FattyBear or ask one of Cassoulet's members" : 'Voici notre page de wiki, vous trouverez ici des informations sur les donjons et boss endgame. Si vous en cherchez un en particulier, tapez son nom dans la barre de recherche. Si vous ne trouvez pas ce que vous cherchez, vous pouvez mp FattyBear, ou demander à un membre de Cassoulet.'}</p>
       <div className="wiki-search">
         <input placeholder='Recherche' type="text" className="wiki-searchbar" value={search} onChange={(e) => setSearch(e.target.value)}/>
       </div>
