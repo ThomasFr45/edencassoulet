@@ -23,7 +23,7 @@ const Navbar = ({ setLanguage }) => {
     <nav>
       <ul>
         <li className="list">
-          <Link to="">
+          <Link to="/">
             <span className="icon">
               <AiFillShop />
             </span>
